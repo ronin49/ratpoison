@@ -1,0 +1,92 @@
+# 3.custom bindings
+#escape Super_L
+bind space exec ~/.config/rofi/launchers/misc/launcher.sh
+bind q quit
+bind Tab next
+bind ISO_Left_Tab prev
+bind p exec poweroff
+definekey top M-Tab next
+definekey top M-w kill
+definekey top Super_L exec ~/.config/rofi/launchers/misc/launcher.sh
+
+# startup apps
+exec nitrogen --restore
+exec urxvt
+
+# unbind unused bindings
+unbind Super_L
+unbind C-Super_L
+unbind C-g
+unbind 0
+unbind 1
+unbind 2
+unbind 3
+unbind 4
+unbind 5
+unbind 6
+unbind 7
+unbind 8
+unbind 9
+unbind minus
+unbind A
+unbind C-A
+unbind K
+unbind C-K
+unbind Return
+unbind C-Return
+unbind a
+unbind C-a
+unbind b
+unbind C-b
+unbind c
+unbind C-c
+unbind colon
+unbind exclam
+unbind C-exclam
+unbind i
+unbind C-i
+unbind C-k
+unbind l
+unbind C-l
+unbind m
+unbind C-m
+unbind C-n
+unbind apostrophe
+unbind C-p
+unbind C-apostrophe
+unbind n
+unbind C-space
+unbind v
+unbind C-v
+unbind w
+unbind C-w
+unbind V
+unbind C-V
+unbind s
+unbind C-s
+unbind S
+unbind C-S
+unbind M-Tab
+unbind Right
+unbind Left
+unbind Up
+unbind Down
+unbind C-Right
+unbind C-Left
+unbind C-Up
+unbind C-Down
+unbind Q
+unbind R
+unbind f
+unbind C-f
+unbind P
+unbind N
+unbind x
+unbind C-x
+unbind U
+unbind u
+unbind C-u
+unbind C-underscore
+unbind r
+unbind C-r
+unbind F
